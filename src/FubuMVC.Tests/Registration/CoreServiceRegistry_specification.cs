@@ -14,6 +14,7 @@ using FubuMVC.Core.Http.Cookies;
 using FubuMVC.Core.Registration;
 using FubuMVC.Core.Registration.Querying;
 using FubuMVC.Core.Runtime;
+using FubuMVC.Core.Runtime.Aggregation;
 using FubuMVC.Core.Runtime.Conditionals;
 using FubuMVC.Core.Runtime.Files;
 using FubuMVC.Core.SessionState;
@@ -39,6 +40,12 @@ namespace FubuMVC.Tests.Registration
         {
             _serviceGraph.DefaultServiceFor<TService>().Type.ShouldEqual(
                 typeof (TImplementation));
+        }
+
+        [Test]
+        public void aggregator_is_registered()
+        {
+            registeredTypeIs<IAggregator, Aggregator>();
         }
 
         [Test]
