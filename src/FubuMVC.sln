@@ -32,8 +32,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.StructureMap.Testin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.Katana", "FubuMVC.Katana\FubuMVC.Katana.csproj", "{48BC51C2-B759-48DB-AAE1-F4686CD6D02A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.Docs", "FubuMVC.Docs\FubuMVC.Docs.csproj", "{B9505A07-A44B-4857-830F-9CAB21DF5FCC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinBottle", "OwinBottle\OwinBottle.csproj", "{60B6139B-6BDA-4860-A475-9675D47888F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuMVC.Razor", "FubuMVC.Razor\FubuMVC.Razor.csproj", "{A88246A6-2A7A-4964-902E-A5A7FDAAA9D4}"
@@ -206,21 +204,6 @@ Global
 		{48BC51C2-B759-48DB-AAE1-F4686CD6D02A}.Retail|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{48BC51C2-B759-48DB-AAE1-F4686CD6D02A}.Retail|Mixed Platforms.Build.0 = Release|Any CPU
 		{48BC51C2-B759-48DB-AAE1-F4686CD6D02A}.Retail|x86.ActiveCfg = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Release|x86.ActiveCfg = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Retail|Any CPU.ActiveCfg = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Retail|Any CPU.Build.0 = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Retail|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Retail|Mixed Platforms.Build.0 = Release|Any CPU
-		{B9505A07-A44B-4857-830F-9CAB21DF5FCC}.Retail|x86.ActiveCfg = Release|Any CPU
 		{60B6139B-6BDA-4860-A475-9675D47888F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60B6139B-6BDA-4860-A475-9675D47888F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B6139B-6BDA-4860-A475-9675D47888F7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
